@@ -29,7 +29,7 @@ This repository is the implementation for 3D-to-2D Distillation for Indoor Scene
 
    - Download ImageNet pre-trained [models]((https://drive.google.com/open?id=15wx9vOM0euyizq-M1uINgN0_wjVRf9J3)) provided by https://github.com/hszhao/semseg and put them under folder `initmodel` for weight initialization. 
    
-   - Specify the gpu used in config then do training:
+   - Specify the GPU used in config then do training:
 
      ```shell
      sh tool/train.sh scannet pspnet50
