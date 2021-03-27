@@ -14,7 +14,7 @@ This repository is the implementation for 3D-to-2D Distillation for Indoor Scene
 2. Clone the repository:
 
    ```shell
-   git clone https://github.com/liuzhengzhe/3D-to-2D-Distallation-for-Indoor-Scene-Parsing
+   git clone https://github.com/liuzhengzhe/3D-to-2D-Distillation-for-Indoor-Scene-Parsing
    ```
 
 4. Train:
