@@ -17,9 +17,9 @@ TRAIN:
   zoom_factor: 8  # zoom factor for final prediction during training, be in [1, 2, 4, 8]
   ignore_label: 255
   aux_weight: 0.4
-  train_gpu: [0,1,2,3]
-  workers: 16  # data loader workers
-  batch_size: 16  # batch size for training
+  train_gpu: [0]
+  workers: 2  # data loader workers
+  batch_size: 2  # batch size for training
   batch_size_val: 8  # batch size for validation during training, memory and speed tradeoff
   base_lr: 0.01
   epochs: 50
@@ -30,7 +30,7 @@ TRAIN:
   manual_seed:
   print_freq: 10
   save_freq: 1
-  save_path: exp/ade20k/pspnet50/model
+  save_path: exp/scannet/pspnet50/model
   weight:  #initmodel/train_epoch_1init.pth #exp/ade20k/pspnet50/model/train_epoch_100.pth #/media/lzz/f1cc9be0-388f-421d-a473-5b33192a9893/semseg_feature/initmodel/init.pth
   resume: #exp/ade20k/pspnet50/model/train_epoch_50.pth 
   evaluate: False  # evaluate on validation set, extra gpu memory needed and small batch_size_val is recommend

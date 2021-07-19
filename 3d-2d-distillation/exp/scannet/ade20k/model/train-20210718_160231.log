@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "tool/train.py", line 487, in <module>
+    main()
+  File "tool/train.py", line 84, in main
+    args = get_parser()
+  File "tool/train.py", line 34, in get_parser
+    cfg = config.load_cfg_from_cfg_file(args.config)
+  File "/media/sdb/lzz/release2/3D-to-2D-Distillation-for-Indoor-Scene-Parsing/3d-2d-distillation/util/config.py", line 63, in load_cfg_from_cfg_file
+    '{} is not a yaml file'.format(file)
+AssertionError: config/scannet/scannet_ade20k.yaml is not a yaml file
