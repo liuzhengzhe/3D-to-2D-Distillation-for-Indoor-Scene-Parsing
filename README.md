@@ -19,7 +19,8 @@ This repository is the implementation for 3D-to-2D Distillation for Indoor Scene
 
 4. Train:
 
-   - Download ScanNet-v2 2D data [scannet_frames_25k](http://www.scan-net.org/) and 3D features extracted from [MinkowskiNet](https://github.com/chrischoy/SpatioTemporalSegmentation) from [here](https://drive.google.com/file/d/1ynLo567JNIvq4zG8DEoTFnXArIYUk3TP/view?usp=sharing), including folders named  "eachfeature" and "featidx2". Then put to them in the data folder:
+   - Download ScanNet-v2 2D data [scannet_frames_25k](http://www.scan-net.org/) and 3D features extracted from [MinkowskiNet](https://github.com/chrischoy/SpatioTemporalSegmentation) from [Google Drive](https://drive.google.com/file/d/1ynLo567JNIvq4zG8DEoTFnXArIYUk3TP/view?usp=sharing) or [BaiduYun](Link：https://pan.baidu.com/s/1ho5rQdV9omfcts5rM3GAGg?pwd=4qlr 
+Extract Code：4qlr), including folders named  "eachfeature" and "featidx2". Then put to them in the data folder:
 
    - Ignore 20 unused categories in ScanNet and generate new ground truth
      ```shell
